@@ -1,6 +1,6 @@
 package org.example.shapes.twodim;
 
-public abstract class TwoDShape {
+public abstract class TwoDShape implements ITwoDimShape {
     protected final ShapeType shapeType;
 
     protected TwoDShape(ShapeType shapeType) {

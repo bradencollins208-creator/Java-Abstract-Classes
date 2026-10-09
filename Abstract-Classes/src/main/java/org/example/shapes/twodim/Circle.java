@@ -13,6 +13,16 @@ public class Circle extends TwoDShape {
         return radius;
     }
 
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Circle Details:\n")
